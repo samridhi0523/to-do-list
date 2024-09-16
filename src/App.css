@@ -1,0 +1,77 @@
+body{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #000000;
+}
+
+h1{
+  margin-top: 50px;
+  color: #C5D86D;
+  font-size: xx-large;
+}
+
+
+form{
+  width:1170px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  gap:20px;
+}
+
+form input{
+  height: 40px ;
+  flex-basis: 80%;
+  color: white;
+  font-size: large;
+  border:none;
+  background: transparent;
+  border-bottom: 2px solid #b6ceb88b;
+}
+
+
+form button{
+  background-color: #12562A;
+  color: white;
+  font-size: large;
+  flex-basis: 20%;
+  border-radius: 10px;
+}
+
+
+.outerDiv{
+  width:1170px;
+  margin: auto;
+}
+
+.outerDiv ul{
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+  list-style: none;
+}
+
+.outerDiv ul li{
+  background-color: #2E294E;
+  border-radius: 10px;
+  color: #8d99ae;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.outerDiv ul li span{
+  cursor: pointer;
+  float:right;
+  margin: 0 10px;
+
+}
+
+.deleteItem{
+  text-decoration: line-through;
+  color: #ef233c !important;
+  background-color: #720714 !important;
+}
